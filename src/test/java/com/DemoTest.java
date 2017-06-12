@@ -18,7 +18,6 @@ public class DemoTest {
 	@Test
     public void testFindAllShop() {
         Integer count = slaveService.count();
-        //Integer count2 = slaveService.count2();
         System.out.println("#######1:"+count);
         
         Integer count2 = slaveService.count2();
